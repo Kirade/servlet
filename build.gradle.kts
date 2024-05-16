@@ -22,6 +22,12 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    // JSP
+    implementation("org.apache.tomcat.embed:tomcat-embed-jasper")
+    implementation("jakarta.servlet:jakarta.servlet-api")
+    implementation("jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api")
+    implementation("org.glassfish.web:jakarta.servlet.jsp.jstl")
+
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
