@@ -4,6 +4,6 @@ Servlet 학습을 위한 프로젝트
 - 서블릿과 멀티 쓰레딩
 - HttpServletRequest, HttpServletResponse
 - JSP, MVC Pattern
-- FrontController
+- FrontController, AdapterPattern
 
 기간: 2024.05.15 ~ 
